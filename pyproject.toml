@@ -12,6 +12,7 @@ psycopg2-binary = "^2.9.6"
 django-crispy-forms = "^2.0"
 crispy-bootstrap5 = "^0.7"
 django-allauth = "^0.54.0"
+environs = {extras = ["django"], version = "^9.5.0"}
 
 
 [build-system]
