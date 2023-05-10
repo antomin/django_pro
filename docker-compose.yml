@@ -12,6 +12,8 @@ services:
     environment:
       - 'DJANGO_SECRET_KEY=django-insecure-$$)i3kc+1xwi_-ykba#ne+ggkv=jcmgm5c#e9*$$-p7z3f+owpre'
       - 'DJANGO_DEBUG=True'
+      - 'EMAIL_HOST_USER=apikey'
+      - 'EMAIL_HOST_PASSWORD=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'
   db:
     image: postgres:12
     volumes:
