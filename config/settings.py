@@ -151,6 +151,11 @@ MEDIA_ROOT = str(BASE_DIR.joinpath('media'))
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
+# CSRF
+
+CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1']
+
+
 # Django Crispy Forms
 
 CRISPY_TEMPLATE_PACK = 'bootstrap5'
